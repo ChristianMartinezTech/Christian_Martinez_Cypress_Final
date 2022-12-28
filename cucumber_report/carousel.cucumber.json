@@ -1,0 +1,164 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check carousel",
+    "line": 1,
+    "id": "check-carousel",
+    "tags": [],
+    "uri": "carousel.feature",
+    "elements": [
+      {
+        "id": "check-carousel;check-next-and-previous-buttons-work",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Check next and previous buttons work",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 1111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I confirm the carousel exists",
+            "result": {
+              "status": "failed",
+              "duration": 9000000,
+              "error_message": "ReferenceError: Homepage is not defined\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\carousel.feature:44:3)\n    at Context.resolveAndRunStepDefinition (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\carousel.feature:10454:29)\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\carousel.feature:9775:35)\nFrom previous event:\n    at Context.thenFn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:160452:63)\n    at Context.then (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:160904:21)\n    at Context.<anonymous> (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:178437:19)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:177222:15\nFrom previous event:\n    at CommandQueue.runCommand (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:177201:17)\n    at next (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:177355:19)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:177384:16\nFrom previous event:\n    at next (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:177355:39)\nFrom previous event:\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:192229:77\nFrom previous event:\n    at CommandQueue.run (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:192224:21)\n    at CommandQueue.run (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:177418:15)\n    at cy.<computed> [as then] (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:178476:18)\n    at runnable.fn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:178704:19)\n    at callFn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129491:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129478:7)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185786:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185771:19)\n    at $Cypress.action (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:174866:28)\n    at Runnable.run (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:183435:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:130150:10)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:130276:12\n    at next (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:130059:14)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:130069:7\n    at next (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129971:14)\n    at Hook.<anonymous> (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:130032:7)\n    at next (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185681:24)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185710:13\nFrom previous event:\n    at onNext (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185707:59)\n    at done (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129431:5)\n    at callFn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129514:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129478:7)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185786:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:185771:19)\n    at $Cypress.action (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:174866:28)\n    at Runnable.run (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:183435:13)\n    at next (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:129993:10)\n    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:130037:5\n    at timeslice (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:123963:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I confirm the next button exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I confirm the previous button exists",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-carousel;check-second-carousel-item",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Check second carousel item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 765000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "first carousel item exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on the next icon",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "second carousel item exists",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-carousel;check-thrid-carousel-item",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check thrid carousel item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "first carousel item exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on the next icon",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on the next icon",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "third carousel item exists",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

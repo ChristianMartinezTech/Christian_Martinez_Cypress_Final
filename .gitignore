@@ -1,3 +1,11 @@
+# Cucumber
+cypress/screenshots
+cypress/videos
+
+# Intellij
+.idea/
+idea/
+
 # Logs
 logs
 *.log
