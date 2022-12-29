@@ -1,29 +1,27 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import { Homepage } from "cypress/integration/pages/Homepage";
-
-const homepage = new Homepage;
+import * as elements from "../../pages/Homepage";
 
 Given('homepage is loaded', () => {
-  homepage.goHomepage();
+  cy.visit('/');
 });
 
 // Scenario: Check next and previous buttons work
-When('I confirm the carousel exists', text => {
-  homepage.carousel()
-    .should('be.exist')
+Then('I confirm the carousel exists', () => {
+  cy.get(elements.elements.carousel).should('exist');
 });
 
-Then('I confirm the next button exists', pendingItems => {
+Then('I confirm the next button exists', () => {
   cy.clock()
-    homepage.carouselNextButton()
+    .get(elements.elements.carouselNextButton)
     .type('button')
     .should('be.visible');
 });
 
-Then('I confirm the previous button exists', pendingItems => {
+Then('I confirm the previous button exists', () => {
   cy.clock()
-    homepage.carousePrevButton()
-    .get('.carousel-control-prev-icon')
+    .get(elements.elements.carouselPrevButton)
     .type('button')
     .should('be.visible');
 });
+
+// Scenario: Check next 

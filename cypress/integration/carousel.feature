@@ -4,8 +4,8 @@ Feature: Check carousel
         Given homepage is loaded
 
     Scenario: Check next and previous buttons work
-        When I confirm the carousel exists
-        Then I confirm the next button exists
+        Then I confirm the carousel exists
+        And I confirm the next button exists
         And I confirm the previous button exists
  
     Scenario: Check second carousel item
