@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check carousel",
+    "line": 1,
+    "id": "check-carousel",
+    "tags": [],
+    "uri": "carousel.feature",
+    "elements": [
+      {
+        "id": "check-carousel;check-next-and-previous-buttons-work",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Check next and previous buttons work",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 2988000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I confirm the carousel exists",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I confirm the next button exists",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I confirm the previous button exists",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-carousel;check-second-carousel-item",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Check second carousel item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 4628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "first carousel item exists",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on the next icon",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "second carousel item exists",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-carousel;check-thrid-carousel-item",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check thrid carousel item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 5214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "first carousel item exists",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on the next icon",
+            "result": {
+              "status": "passed",
+              "duration": 1301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on the next icon a second time",
+            "result": {
+              "status": "passed",
+              "duration": 2187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "third carousel item exists",
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
