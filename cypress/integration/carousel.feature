@@ -16,5 +16,5 @@ Feature: Check carousel
     Scenario: Check thrid carousel item
         And first carousel item exists
         When I click on the next icon
-        And  I click on the next icon
+        And  I click on the next icon a second time
         Then third carousel item exists
